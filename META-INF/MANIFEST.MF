@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: th.motive.idempiere.base
+Bundle-SymbolicName: th.motive.idempiere.base
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Motive Solutions co.ltd
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.adempiere.base,
+ org.adempiere.plugin.utils,
+ org.adempiere.util,
+ org.adempiere.webui.adwindow,
+ org.adempiere.webui.adwindow.validator,
+ org.apache.commons.lang,
+ org.compiere.model,
+ org.compiere.util,
+ org.osgi.service.component.annotations,
+ th.motive.utility
+Service-Component: OSGI-INF/*.xml
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
+Bundle-ClassPath: .
+Automatic-Module-Name: th.motive.idempiere.base

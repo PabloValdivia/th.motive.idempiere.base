@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="th.motive.idempiere.base.osgi.component.BaseADTableWindowEventHandler">
+   <property name="AD_Window_UU" type="String" value="e407e1b9-958f-4550-9ffa-ba28a34e603f"/>
+   <service>
+      <provide interface="org.adempiere.webui.adwindow.validator.WindowValidator"/>
+   </service>
+   <implementation class="th.motive.idempiere.base.osgi.component.BaseADTableWindowEventHandler"/>
+</scr:component>
