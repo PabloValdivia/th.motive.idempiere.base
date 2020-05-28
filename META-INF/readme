@@ -10,3 +10,13 @@
 	customize to AD
 2Pack_1.0.5.zip
 	packout of 2Pack_1.0.4.zip
+
+2Pack_1.0.6.zip
+	define window Special Record Mapping and relative data for IDEMPIERE-3500
+2Pack_1.0.7.zip
+	packout for 2Pack_1.0.6.zip
+
+2Pack_1.0.8.zip
+	data for table Special Record Mapping. by limit of 2Pack, it have to separate from 2pack define for this window (2Pack_1.0.6)
+2Pack_1.0.9.zip
+	packout for 2Pack_1.0.8.zip

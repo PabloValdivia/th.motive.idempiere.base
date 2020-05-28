@@ -4,7 +4,6 @@ Bundle-Name: th.motive.idempiere.base
 Bundle-SymbolicName: th.motive.idempiere.base
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Motive Solutions co.ltd
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: org.adempiere.base,
  org.adempiere.plugin.utils,
  org.adempiere.util,
@@ -20,3 +19,4 @@ Bundle-ActivationPolicy: lazy
 Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
 Bundle-ClassPath: .
 Automatic-Module-Name: th.motive.idempiere.base
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=11))"

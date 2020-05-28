@@ -83,7 +83,7 @@ public class BaseADTableWindowEventHandler implements WindowValidator{
 	 * @return
 	 */
 	protected String normalizeSqlColumnName(String sSqlColumnName, String sColumnName) {
-		if (StringUtils.isNotEmpty(sSqlColumnName) || StringUtils.isEmpty(sColumnName))
+		if (sSqlColumnName != null || sColumnName == null)
 			return sSqlColumnName;
 		
 		// create column sql name from column name
